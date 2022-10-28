@@ -12,7 +12,8 @@ const FourthPage = () => {
       <div
         style={{
           display: "flex",
-          marginTop: "4rem",
+          marginTop: "5rem",
+          marginBottom: "-3rem",
           flexdirection: "column",
           justifyContent: "center"
         }}
@@ -21,9 +22,10 @@ const FourthPage = () => {
       </div>
       <h1 className="welcometxt">Congratulation, Eden?</h1>
       <p className="welcomep">
-        We'll streamline your setup experience accordingly.
+        You have completed onboarding, you can start using the Eden!
       </p>
       <button
+        style={{marginTop: '-2rem'}}
         className="submit"
         onClick={() => {
           handleSubmit();
